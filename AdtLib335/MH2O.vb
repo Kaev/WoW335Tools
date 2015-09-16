@@ -1,5 +1,4 @@
 ﻿Imports System.IO
-Imports AdtLib335
 
 Public Class MH2O
     Implements Chunk

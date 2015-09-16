@@ -1,6 +1,4 @@
-﻿Imports System.Reflection
-
-Public Class Form1
+﻿Public Class Form1
     Private Sub btnLoad_Click(sender As Object, e As EventArgs) Handles btnLoad.Click
         Dim adt As New AdtLib335.Adt(tbAdtFile.Text, tbWdtFile.Text)
         If Not adt.MTEX Is Nothing Then
